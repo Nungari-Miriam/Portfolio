@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> My Portfolio </title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <ul class="nav-links">
+                  <li><a href="#home">Home</a></li>  
+                  <li><a href="#about">About me</a></li> 
+                  <li><a href="#projects">Projects</a></li> 
+                  <li><a href="#contact">Contact</a></li> 
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="home">
+                <div class="introduction">
+                    <div class="intro-text">
+                        <h2>
+                            Hi, I’m <span class="highlight-name">Miriam Nungari</span><br>
+                            a <span class="highlight-role">Data Analyst</span>
+                          </h2>
+                        <p>
+                            I seek to leverage my expertise in cloud technologies and
+                            data analytics <br> to drive innovative solutions that 
+                            enhance decision-making and operational efficiency <br>
+                            while contributing to the success of a dynamic,
+                            forward-thinking organization.
+                        </p>
+                        <div class="button-container">
+                            <a href="#contact" class="btn contact-btn">Contact Me</a>
+                            <a href="Miriam_Nungari.pdf" class="btn download-btn" download>Download CV</a>
+                        </div>    
+                    </div>
+                    <div class="profile-container">
+                        <img src="Profile.jpg" alt="Miriam Nungari Profile" class="profile-pic"/>
+                    </div>  
+                </div>
+                <div id="tools" class ="tools">
+                    <div class="icons">  
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="40" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="40" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" width="40"/>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Power BI" width="40"/> 
+                        <img src="https://img.icons8.com/color/48/power-bi.png" alt="Power BI" width="40"/>
+                     
+                    </div>    
+                </div>   
+            </section>
+            <section id="about" class="about-section">
+                <div class="about-container">
+                  <div class="about-image">
+                    <img src="Data.jpg" alt="Miriam - Data Analyst">
+                  </div>
+              
+                  <div class="about-content">
+                    <h2>About Me</h2>
+                    <p>
+                    I am a data driven professional with a passion for uncovering insights and building intelligent solutions.
+                      My passion lies in uncovering stories within data and using cloud-powered analytics to drive innovation.
+                      I’m interested in AI agents and cloud-powered systems that automate workflows and scale effortlessly to deliver smarter, data-driven solutions.
+                    </p>
+              
+                    <div class="education">
+                      <h3>Education</h3>
+                      <p><strong>Dedan Kimathi University of Technology</strong><br>
+                        BSc. in Business Information Technology</p>
+                    </div>
+              
+                    <div class="skills">
+                        <h3>Skills</h3>
+                        <ul>
+                            <li><strong>Programming:</strong> Python, SQL</li>
+                            <li><strong>Databases:</strong> MySQL, PostgreSQL, Oracle</li>
+                            <li><strong>Visualization:</strong> Power BI, Tableau, OAS</li>
+                            <li><strong>Cloud:</strong> AWS (Athena, S3, EMR, etc.)</li>
+                            <li><strong>Containerization:</strong> Docker</li>
+                            <li><strong>ETL Tools:</strong> SSIS, ODI, NiFi</li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+              </section> 
+             
+              <section id="projects" class="projects-section">
+                <div class="project">
+                  <h2>Projects</h2>
+                </div>
+              
+                <div class="projects-container">
+                  <div class="project-card">
+                    <img src="Inclusivity.jpg" alt="Diversity & Inclusion" class="project-img">
+                    <div class="project-content">
+                      <h3>Diversity & Inclusion Analysis</h3>
+                      <p>Evaluated data to assess equity and inclusivity across different demographic groups within an organization</p>
+                      <a href="https://github.com/Nungari-Miriam/Diversity-Inclusion-Analysis" target="_blank">View on GitHub</a>
+                    </div>
+                  </div>
+              
+                  <div class="project-card">
+                    <img src="Customer-retention.jpg" alt="Customer Retention" class="project-img">
+                    <div class="project-content">
+                      <h3>Customer Retention Analysis</h3>
+                      <p>Explored churn using Python/SQL. Created Power BI dashboards on lifetime value and engagement.</p>
+                      <a href="https://github.com/Nungari-Miriam/Customer-Retention-Analysis" target="_blank">View on Github</a>
+                    </div>
+                  </div>
+              
+                  <div class="project-card">
+                    <img src="Loyalty.png" alt="Airline Loyalty Program" class="project-img">
+                    <div class="project-content">
+                      <h3>Airline Loyalty Program</h3>
+                      <p>Evaluated loyalty behavior to improve retention. Delivered key insights on reward optimization.</p>
+                      <a href="https://github.com/Nungari-Miriam/Airline-Loyalty-Program-Analysis" target="_blank">View on GitHub</a>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section class="contact-section" id="contact">
+                <div class="contact"><h2>GET IN TOUCH</h2></div>
+                <div class="contact-container">
+                    <p> Thank you for visiting my portfolio. If you have any inquiries,<br>
+                        collaboration proposals or would like to discuss potential opportunities, please do not hesitate to reach out. </p>
+                     <form class="contact-form" form action="https://formsubmit.co/nungarimiriam@gmail.com" method="POST">
+                       <input type="hidden" name="_captcha" value="false">
+                       <input type="text" placeholder="Your Name *" required>
+                       <input type="email" placeholder="Your Email *" required>
+                       <textarea placeholder="Your Message *" required></textarea>
+                       <button type="submit">SEND MESSAGE</button>
+                     </form>
+                </div>
+              </section> 
+        </main>      
+    </body>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-icons">
+                <a href="https://github.com/Nungari-Miriam" target="_blank" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/miriam-nungari-nganga/" target="_blank" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://mail.google.com/mail/?view=cm&to=nungarimiriam@gmail.com" aria-label="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+              </div>
+          <p>&copy; 2025 Miriam Nungari. All rights reserved.</p>
+          
+        </div>
+      </footer>
+      
+</html>
