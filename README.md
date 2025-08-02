@@ -44,15 +44,15 @@ Here are some tools and technologies featured in my portfolio:
 ## Live Site
 
 Check out the live site here:  
-[[https://your-username.github.io/your-repository-name/](https://your-username.github.io/your-repository-name/) ](https://nungari-miriam.github.io/Portfolio/) 
+https://nungari-miriam.github.io/Portfolio/
 
 ---
 
 ## Contact
 
 Feel free to reach out via:  
-- Email: your-email@example.com  
-- LinkedIn: [[Your LinkedIn Profile](https://linkedin.com/in/yourprofile) ](https://linkedin.com/in/miriam-nungari-nganga/) 
+- Email: nungarimiriam@gmail.com  
+- LinkedIn: https://linkedin.com/in/miriam-nungari-nganga/
 - Download CV: Available on the site
 
 
